@@ -1,0 +1,83 @@
+species,homeworld,person,height,mass,hair_color,skin_color,eye_color,birth_year,gender,planet,rotation_period,orbital_period,diameter,climate,gravity,terrain,surface_water,population,terrain2,color,species_name,classification,designation,average_height,average_lifespan
+1,26,Jek Tono Porkins,180,110,brown,fair,blue,NA,male,Bestine IV,26,680,6400,temperate,NA,"rocky islands, oceans",98,62000000,rocky,#808487,Human,mammal,sentient,180,120
+1,1,Owen Lars,178,120,"brown, grey",light,blue,52BBY,male,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,1,Darth Vader,202,136,NA,white,yellow,41.9BBY,male,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,1,Shmi Skywalker,163,NA,black,fair,brown,72BBY,female,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,1,Cliegg Lars,183,NA,brown,fair,blue,82BBY,male,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,1,Beru Whitesun lars,165,75,brown,light,blue,47BBY,female,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,2,Raymus Antilles,188,79,brown,light,brown,NA,male,Alderaan,24,364,12500,temperate,1 standard,"grasslands, mountains",40,2000000000,grass,#7cfc00,Human,mammal,sentient,180,120
+1,10,Boba Fett,183,78.2,black,fair,brown,31.5BBY,male,Kamino,27,463,19720,temperate,1 standard,ocean,100,1000000000,ocean,#0077be,Human,mammal,sentient,180,120
+1,1,Luke Skywalker,172,77,blond,fair,blue,19BBY,male,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,8,Palpatine,170,75,grey,pale,yellow,82BBY,male,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Human,mammal,sentient,180,120
+1,28,Finn,NA,NA,black,dark,dark,NA,male,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Human,mammal,sentient,180,120
+1,28,Arvel Crynyd,NA,NA,brown,fair,brown,NA,male,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Human,mammal,sentient,180,120
+1,1,Biggs Darklighter,183,84,black,light,brown,24BBY,male,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,2,Leia Organa,150,49,brown,light,brown,19BBY,female,Alderaan,24,364,12500,temperate,1 standard,"grasslands, mountains",40,2000000000,grass,#7cfc00,Human,mammal,sentient,180,120
+1,1,Anakin Skywalker,188,84,blond,fair,blue,41.9BBY,male,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,9,Jocasta Nu,167,NA,white,fair,blue,NA,female,Coruscant,24,368,12240,temperate,1 standard,"cityscape, mountains",NA,1000000000000,city,#8d8d8d,Human,mammal,sentient,180,120
+1,20,Obi-Wan Kenobi,182,77,"auburn, white",fair,blue-gray,57BBY,male,Stewjon,NA,NA,0,temperate,1 standard,grass,NA,NA,grass,#7cfc00,Human,mammal,sentient,180,120
+1,21,Wilhuff Tarkin,180,NA,"auburn, grey",fair,blue,64BBY,male,Eriadu,24,360,13490,polluted,1 standard,cityscape,NA,22000000000,city,#8d8d8d,Human,mammal,sentient,180,120
+1,22,Han Solo,180,80,brown,fair,brown,29BBY,male,Corellia,25,329,11000,temperate,1 standard,"plains, urban, hills, forests",70,3000000000,plain,#c2a685,Human,mammal,sentient,180,120
+1,22,Wedge Antilles,170,77,brown,fair,hazel,21BBY,male,Corellia,25,329,11000,temperate,1 standard,"plains, urban, hills, forests",70,3000000000,plain,#c2a685,Human,mammal,sentient,180,120
+1,8,Cordé,157,NA,brown,light,brown,NA,female,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Human,mammal,sentient,180,120
+1,30,Lando Calrissian,177,79,black,dark,brown,31BBY,male,Socorro,20,326,0,arid,1 standard,"deserts, mountains",NA,300000000,desert,#c2b280 ,Human,mammal,sentient,180,120
+1,6,Lobot,175,79,NA,light,blue,37BBY,male,Bespin,12,5110,118000,temperate,"1.5 (surface), 1 standard (Cloud City)",gas giant,0,6000000,gas giant,#B45C3D,Human,mammal,sentient,180,120
+1,32,Mon Mothma,150,NA,auburn,fair,blue,48BBY,female,Chandrila,20,368,13500,temperate,1,"plains, forests",40,1200000000,plain,#c2a685,Human,mammal,sentient,180,120
+1,53,Jango Fett,183,79,black,tan,brown,66BBY,male,Concord Dawn,NA,NA,NA,NA,NA,"jungles, forests, deserts",NA,NA,jungle,#29ab87,Human,mammal,sentient,180,120
+1,8,Dormé,165,NA,brown,light,brown,NA,female,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Human,mammal,sentient,180,120
+1,28,Rey,NA,NA,brown,light,hazel,NA,female,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Human,mammal,sentient,180,120
+1,2,Bail Prestor Organa,191,NA,black,tan,brown,67BBY,male,Alderaan,24,364,12500,temperate,1 standard,"grasslands, mountains",40,2000000000,grass,#7cfc00,Human,mammal,sentient,180,120
+1,28,Poe Dameron,NA,NA,brown,light,brown,NA,male,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Human,mammal,sentient,180,120
+1,28,Qui-Gon Jinn,193,89,brown,fair,blue,92BBY,male,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Human,mammal,sentient,180,120
+1,42,Mace Windu,188,84,NA,dark,brown,72BBY,male,Haruun Kal,25,383,10120,temperate,0.98,"toxic cloudsea, plateaus, volcanoes",NA,705300,toxic cloudsea,#93e51e,Human,mammal,sentient,180,120
+1,52,Dooku,193,80,white,fair,brown,102BBY,male,Serenno,NA,NA,NA,NA,NA,"rainforests, rivers, mountains",NA,NA,forest,#228b22,Human,mammal,sentient,180,120
+1,9,Finis Valorum,170,NA,blond,fair,blue,91BBY,male,Coruscant,24,368,12240,temperate,1 standard,"cityscape, mountains",NA,1000000000000,city,#8d8d8d,Human,mammal,sentient,180,120
+1,8,Gregar Typho,185,85,black,dark,brown,NA,male,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Human,mammal,sentient,180,120
+1,8,Padmé Amidala,165,45,brown,light,brown,46BBY,female,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Human,mammal,sentient,180,120
+10,33,Nien Nunb,160,68,NA,grey,black,NA,male,Sullust,20,263,12780,superheated,1,"mountains, volcanoes, rocky deserts",5,18500000000,mountain,#977c53,Sullustan,mammal,sentient,180,unknown
+11,18,Nute Gunray,191,90,NA,mottled green,red,NA,male,Cato Neimoidia,25,278,0,"temperate, moist",1 standard,"mountains, fields, forests, rock arches",NA,10000000,mountain,#977c53,Neimodian,unknown,sentient,180,unknown
+12,8,Rugor Nass,206,NA,NA,green,orange,NA,male,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Gungan,amphibian,sentient,190,unknown
+12,8,Jar Jar Binks,196,66,NA,orange,orange,52BBY,male,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Gungan,amphibian,sentient,190,unknown
+12,8,Roos Tarpals,224,82,NA,grey,orange,NA,male,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Gungan,amphibian,sentient,190,unknown
+13,34,Watto,137,NA,black,blue,yellow,NA,male,Toydaria,21,184,7900,temperate,1,"swamps, lakes",NA,11000000,swamp,#A3AE7E,Toydarian,mammal,sentient,120,91
+14,35,Sebulba,112,40,NA,grey,orange,NA,male,Malastare,26,201,18880,"arid, temperate, tropical",1.56,"swamps, deserts, jungles, mountains",NA,2000000000,swamp,#A3AE7E,Dug,mammal,sentient,100,unknown
+15,37,Bib Fortuna,180,NA,NA,pale,pink,NA,male,Ryloth,30,305,10600,"temperate, arid, subartic",1,"mountains, valleys, deserts, tundra",5,1500000000,mountain,#977c53,Twi'lek,mammals,sentient,200,unknown
+15,37,Ayla Secura,178,55,NA,blue,hazel,48BBY,female,Ryloth,30,305,10600,"temperate, arid, subartic",1,"mountains, valleys, deserts, tundra",5,1500000000,mountain,#977c53,Twi'lek,mammals,sentient,200,unknown
+16,38,Ratts Tyerell,79,15,NA,grey,NA,NA,male,Aleen Minor,NA,NA,NA,NA,NA,NA,NA,NA,NA,black,Aleena,reptile,sentient,80,79
+17,39,Dud Bolt,94,45,NA,blue,yellow,NA,male,Vulpter,22,391,14900,"temperate, artic",1,"urban, barren",NA,421000000,urban,#55636d,Vulptereen,unknown,sentient,100,unknown
+18,40,Gasgano,122,NA,NA,white,black,NA,male,Troiken,NA,NA,NA,NA,NA,"desert, tundra, rainforests, mountains",NA,NA,desert,#c2b280 ,Xexto,unknown,sentient,125,unknown
+19,41,Ben Quadinaros,163,65,NA,grey,orange,NA,male,Tund,48,1770,12190,NA,NA,"barren, ash",NA,0,barren,#d0dbc5,Toong,unknown,sentient,200,unknown
+2,8,R2-D2,96,32,NA,white,red,33BBY,droid,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Droid,artificial,sentient,n/a,indefinite
+2,1,R5-D4,97,32,NA,white,red,NA,droid,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Droid,artificial,sentient,n/a,indefinite
+2,28,BB8,NA,NA,NA,NA,black,NA,droid,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Droid,artificial,sentient,n/a,indefinite
+2,1,C-3PO,167,75,NA,gold,yellow,112BBY,droid,Tatooine,23,304,10465,arid,1 standard,desert,1,200000,desert,#c2b280 ,Droid,artificial,sentient,n/a,indefinite
+2,28,IG-88,200,140,NA,metal,red,15BBY,droid,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Droid,artificial,sentient,n/a,indefinite
+20,43,Ki-Adi-Mundi,198,82,white,pale,yellow,92BBY,male,Cerea,27,386,NA,temperate,1,verdant,20,450000000,verdant,#a7d3a8,Cerean,mammal,sentient,200,unknown
+21,44,Kit Fisto,196,87,NA,green,black,NA,male,Glee Anselm,33,206,15600,"tropical, temperate",1,"lakes, islands, swamps, seas",80,500000000,lake,#579da6,Nautolan,amphibian,sentient,180,70
+22,45,Eeth Koth,171,NA,black,brown,brown,NA,male,Iridonia,29,413,NA,NA,NA,"rocky canyons, acid pools",NA,NA,rocky,#808487,Zabrak,mammal,sentient,180,unknown
+22,36,Darth Maul,175,80,NA,red,yellow,54BBY,male,Dathomir,24,491,10480,temperate,0.9,"forests, deserts, savannas",NA,5200,forest,#228b22,Zabrak,mammal,sentient,180,unknown
+23,9,Adi Gallia,184,50,NA,dark,blue,NA,female,Coruscant,24,368,12240,temperate,1 standard,"cityscape, mountains",NA,1000000000000,city,#8d8d8d,Tholothian,mammal,sentient,unknown,unknown
+24,47,Saesee Tiin,188,NA,NA,pale,orange,NA,male,Iktotch,22,481,NA,"arid, rocky, windy",1,rocky,NA,NA,rocky,#808487,Iktotchi,unknown,sentient,180,unknown
+25,48,Yarael Poof,264,NA,NA,white,yellow,NA,male,Quermia,NA,NA,NA,NA,NA,NA,NA,NA,NA,black,Quermian,mammal,sentient,240,86
+26,49,Plo Koon,188,80,NA,orange,black,22BBY,male,Dorin,22,409,13400,temperate,1,NA,NA,NA,NA,black,Kel Dor,unknown,sentient,180,70
+27,50,Mas Amedda,196,NA,NA,blue,blue,NA,male,Champala,27,318,NA,temperate,1,"oceans, rainforests, plateaus",NA,3500000000,ocean,#0077be,Chagrian,amphibian,sentient,190,unknown
+28,11,Poggle the Lesser,183,80,NA,green,yellow,NA,male,Geonosis,30,256,11370,"temperate, arid",0.9 standard,"rock, desert, mountain, barren",5,100000000000,rock,#808487,Geonosian,insectoid,sentient,178,unknown
+29,51,Luminara Unduli,170,56.2,black,yellow,blue,58BBY,female,Mirial,NA,NA,NA,NA,NA,deserts,NA,NA,desert,#c2b280 ,Mirialan,mammal,sentient,180,unknown
+29,51,Barriss Offee,166,50,black,yellow,blue,40BBY,female,Mirial,NA,NA,NA,NA,NA,deserts,NA,NA,desert,#c2b280 ,Mirialan,mammal,sentient,180,unknown
+3,14,Chewbacca,228,112,brown,NA,blue,200BBY,male,Kashyyyk,26,381,12765,tropical,1 standard,"jungle, forests, lakes, rivers",60,45000000,jungle,#29ab87,Wookiee,mammal,sentient,210,400
+3,14,Tarfful,234,136,brown,brown,blue,NA,male,Kashyyyk,26,381,12765,tropical,1 standard,"jungle, forests, lakes, rivers",60,45000000,jungle,#29ab87,Wookiee,mammal,sentient,210,400
+30,54,Zam Wesell,168,55,blonde,fair,yellow,NA,female,Zolan,NA,NA,NA,NA,NA,NA,NA,NA,NA,black,Clawdite,reptilian,sentient,180,70
+31,55,Dexter Jettster,198,102,NA,brown,yellow,NA,male,Ojom,NA,NA,NA,frigid,NA,"oceans, glaciers",100,500000000,ocean,#0077be,Besalisk,amphibian,sentient,178,75
+32,10,Taun We,213,NA,NA,grey,black,NA,female,Kamino,27,463,19720,temperate,1 standard,ocean,100,1000000000,ocean,#0077be,Kaminoan,amphibian,sentient,220,80
+32,10,Lama Su,229,88,NA,grey,black,NA,male,Kamino,27,463,19720,temperate,1 standard,ocean,100,1000000000,ocean,#0077be,Kaminoan,amphibian,sentient,220,80
+33,56,Wat Tambor,193,48,NA,green,NA,NA,male,Skako,27,384,NA,temperate,1,"urban, vines",NA,500000000000,urban,#55636d,Skakoan,mammal,sentient,unknown,unknown
+34,57,San Hill,191,NA,NA,grey,gold,NA,male,Muunilinst,28,412,13800,temperate,1,"plains, forests, hills, mountains",25,5000000000,plain,#c2a685,Muun,mammal,sentient,190,100
+35,58,Shaak Ti,178,57,NA,red,black,NA,female,Shili,NA,NA,NA,temperate,1,"cities, savannahs, seas, plains",NA,NA,city,#8d8d8d,Togruta,mammal,sentient,180,94
+36,59,Grievous,216,159,NA,brown,"green, yellow",NA,male,Kalee,23,378,13850,"arid, temperate, tropical",1,"rainforests, cliffs, canyons, seas",NA,4000000000,forest,#228b22,Kaleesh,reptile,sentient,170,80
+37,12,Tion Medon,206,80,NA,grey,black,NA,male,Utapau,27,351,12900,"temperate, arid, windy",1 standard,"scrublands, savanna, canyons, sinkholes",0.9,95000000,scrubland,#aab5a8,Pau'an,mammal,sentient,190,700
+4,23,Greedo,173,74,NA,green,black,44BBY,male,Rodia,29,305,7549,hot,1 standard,"jungles, oceans, urban, swamps",60,1300000000,jungle,#29ab87,Rodian,sentient,reptilian,170,unknown
+5,24,Jabba Desilijic Tiure,175,NA,NA,green-tan,orange,600BBY,hermaphrodite,Nal Hutta,87,413,12150,temperate,1 standard,"urban, oceans, swamps, bogs",NA,7000000000,urban,#55636d,Hutt,gastropod,sentient,300,1000
+6,28,Yoda,66,17,white,green,brown,896BBY,male,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Yoda's species,mammal,sentient,66,900
+7,29,Bossk,190,113,NA,green,red,53BBY,male,Trandosha,25,371,0,arid,0.62 standard,"mountains, seas, grasslands, deserts",NA,42000000,mountain,#977c53,Trandoshan,reptile,sentient,200,unknown
+8,31,Ackbar,180,83,NA,brown mottle,orange,41BBY,male,Mon Cala,21,398,11030,temperate,1,"oceans, reefs, islands",100,27000000000,ocean,#0077be,Mon Calamari,amphibian,sentient,160,unknown
+9,7,Wicket Systri Warrick,88,20,brown,brown,brown,8BBY,male,Endor,18,402,4900,temperate,0.85 standard,"forests, mountains, lakes",8,30000000,forest,#228b22,Ewok,mammal,sentient,100,unknown

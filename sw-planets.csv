@@ -1,0 +1,62 @@
+name,rotation_period,orbital_period,diameter,climate,gravity,terrain,surface_water,population,url,terrain2,color
+Alderaan,24,364,12500,temperate,1 standard,"grasslands, mountains",40,2000000000,2,grass,#7cfc00
+Yavin IV,24,4818,10200,"temperate, tropical",1 standard,"jungle, rainforests",8,1000,3,jungle,#29ab87
+Hoth,23,549,7200,frozen,1.1 standard,"tundra, ice caves, mountain ranges",100,NA,4,tundra,#dde7f2
+Dagobah,23,341,8900,murky,N/A,"swamp, jungles",8,NA,5,swamp,#A3AE7E
+Bespin,12,5110,118000,temperate,"1.5 (surface), 1 standard (Cloud City)",gas giant,0,6000000,6,gas giant,#B45C3D
+Endor,18,402,4900,temperate,0.85 standard,"forests, mountains, lakes",8,30000000,7,forest,#228b22
+Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,8,grass,#7cfc00
+Coruscant,24,368,12240,temperate,1 standard,"cityscape, mountains",NA,1000000000000,9,city,#8d8d8d
+Kamino,27,463,19720,temperate,1 standard,ocean,100,1000000000,10,ocean,#0077be
+Geonosis,30,256,11370,"temperate, arid",0.9 standard,"rock, desert, mountain, barren",5,100000000000,11,rock,#808487
+Utapau,27,351,12900,"temperate, arid, windy",1 standard,"scrublands, savanna, canyons, sinkholes",0.9,95000000,12,scrubland,#aab5a8
+Mustafar,36,412,4200,hot,1 standard,"volcanoes, lava rivers, mountains, caves",0,20000,13,volcanoe,#CF1020
+Kashyyyk,26,381,12765,tropical,1 standard,"jungle, forests, lakes, rivers",60,45000000,14,jungle,#29ab87
+Polis Massa,24,590,0,artificial temperate ,0.56 standard,airless asteroid,0,1000000,15,airless asteroid,#5f4e43
+Mygeeto,12,167,10088,frigid,1 standard,"glaciers, mountains, ice canyons",NA,19000000,16,glacier,#aad3e9
+Felucia,34,231,9100,"hot, humid",0.75 standard,fungus forests,NA,8500000,17,forest,#228b22
+Cato Neimoidia,25,278,0,"temperate, moist",1 standard,"mountains, fields, forests, rock arches",NA,10000000,18,mountain,#977c53
+Saleucami,26,392,14920,hot,NA,"caves, desert, mountains, volcanoes",NA,1400000000,19,cave,#13120e
+Stewjon,NA,NA,0,temperate,1 standard,grass,NA,NA,20,grass,#7cfc00
+Eriadu,24,360,13490,polluted,1 standard,cityscape,NA,22000000000,21,city,#8d8d8d
+Corellia,25,329,11000,temperate,1 standard,"plains, urban, hills, forests",70,3000000000,22,plain,#c2a685
+Rodia,29,305,7549,hot,1 standard,"jungles, oceans, urban, swamps",60,1300000000,23,jungle,#29ab87
+Nal Hutta,87,413,12150,temperate,1 standard,"urban, oceans, swamps, bogs",NA,7000000000,24,urban,#55636d
+Dantooine,25,378,9830,temperate,1 standard,"oceans, savannas, mountains, grasslands",NA,1000,25,ocean,#0077be
+Bestine IV,26,680,6400,temperate,NA,"rocky islands, oceans",98,62000000,26,rocky,#808487
+Ord Mantell,26,334,14050,temperate,1 standard,"plains, seas, mesas",10,4000000000,27,plain,#c2a685
+NA,0,0,0,NA,NA,NA,NA,NA,28,NA,black
+Trandosha,25,371,0,arid,0.62 standard,"mountains, seas, grasslands, deserts",NA,42000000,29,mountain,#977c53
+Socorro,20,326,0,arid,1 standard,"deserts, mountains",NA,300000000,30,desert,#c2b280 
+Mon Cala,21,398,11030,temperate,1,"oceans, reefs, islands",100,27000000000,31,ocean,#0077be
+Chandrila,20,368,13500,temperate,1,"plains, forests",40,1200000000,32,plain,#c2a685
+Sullust,20,263,12780,superheated,1,"mountains, volcanoes, rocky deserts",5,18500000000,33,mountain,#977c53
+Toydaria,21,184,7900,temperate,1,"swamps, lakes",NA,11000000,34,swamp,#A3AE7E
+Malastare,26,201,18880,"arid, temperate, tropical",1.56,"swamps, deserts, jungles, mountains",NA,2000000000,35,swamp,#A3AE7E
+Dathomir,24,491,10480,temperate,0.9,"forests, deserts, savannas",NA,5200,36,forest,#228b22
+Ryloth,30,305,10600,"temperate, arid, subartic",1,"mountains, valleys, deserts, tundra",5,1500000000,37,mountain,#977c53
+Aleen Minor,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,black
+Vulpter,22,391,14900,"temperate, artic",1,"urban, barren",NA,421000000,39,urban,#55636d
+Troiken,NA,NA,NA,NA,NA,"desert, tundra, rainforests, mountains",NA,NA,40,desert,#c2b280 
+Tund,48,1770,12190,NA,NA,"barren, ash",NA,0,41,barren,#d0dbc5
+Haruun Kal,25,383,10120,temperate,0.98,"toxic cloudsea, plateaus, volcanoes",NA,705300,42,toxic cloudsea,#93e51e
+Cerea,27,386,NA,temperate,1,verdant,20,450000000,43,verdant,#a7d3a8
+Glee Anselm,33,206,15600,"tropical, temperate",1,"lakes, islands, swamps, seas",80,500000000,44,lake,#579da6
+Iridonia,29,413,NA,NA,NA,"rocky canyons, acid pools",NA,NA,45,rocky,#808487
+Tholoth,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,black
+Iktotch,22,481,NA,"arid, rocky, windy",1,rocky,NA,NA,47,rocky,#808487
+Quermia,NA,NA,NA,NA,NA,NA,NA,NA,48,NA,black
+Dorin,22,409,13400,temperate,1,NA,NA,NA,49,NA,black
+Champala,27,318,NA,temperate,1,"oceans, rainforests, plateaus",NA,3500000000,50,ocean,#0077be
+Mirial,NA,NA,NA,NA,NA,deserts,NA,NA,51,desert,#c2b280 
+Serenno,NA,NA,NA,NA,NA,"rainforests, rivers, mountains",NA,NA,52,forest,#228b22
+Concord Dawn,NA,NA,NA,NA,NA,"jungles, forests, deserts",NA,NA,53,jungle,#29ab87
+Zolan,NA,NA,NA,NA,NA,NA,NA,NA,54,NA,black
+Ojom,NA,NA,NA,frigid,NA,"oceans, glaciers",100,500000000,55,ocean,#0077be
+Skako,27,384,NA,temperate,1,"urban, vines",NA,500000000000,56,urban,#55636d
+Muunilinst,28,412,13800,temperate,1,"plains, forests, hills, mountains",25,5000000000,57,plain,#c2a685
+Shili,NA,NA,NA,temperate,1,"cities, savannahs, seas, plains",NA,NA,58,city,#8d8d8d
+Kalee,23,378,13850,"arid, temperate, tropical",1,"rainforests, cliffs, canyons, seas",NA,4000000000,59,forest,#228b22
+Umbara,NA,NA,NA,NA,NA,NA,NA,NA,60,NA,black
+Tatooine,23,304,10465,arid,1 standard,desert,1,200000,1,desert,#c2b280 
+Jakku,NA,NA,NA,NA,NA,deserts,NA,NA,61,desert,#c2b280 
