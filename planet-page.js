@@ -1,8 +1,12 @@
+var margin = { top: 20, right: 20, bottom: 20, left: 50 };
+width = width - margin.left - margin.right
+height = height - margin.top - margin.bottom;
+
 var x = d3.scaleLinear()
     .domain([0,100000])
-    .range([0,150]);
-width = 600
-height = 400
+    .range([5,150]);
+/*width = 600
+height = 400*/
 svg.append("rect")
     .attr("width", "100%")
     .attr("height", "100%")
@@ -73,3 +77,13 @@ function translateAlong(path) {
     };
   };
 }
+
+
+ svg.append("text")
+        .attr("x", (width / 2))             
+        .attr("y", margin.top)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .style("text-decoration", "underline")  
+        .style("fill", "white")
+        .text("Orbit");

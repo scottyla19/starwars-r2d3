@@ -113,6 +113,6 @@ peopleDF <- peopleDF[!duplicated(peopleDF), ]
 write_csv(planetDF, "sw-planets.csv")
 write_csv(peopleDF, "sw-people.csv")
 
-print(peopleDF %>% filter(planet=="Dagobah"))
+orbitPlanets <- planetDF %>% filter(!is.na(orbital_period))
 
       

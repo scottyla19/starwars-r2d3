@@ -8,7 +8,7 @@
 #
 planetDF <- read_csv("sw-planets.csv")
 peopleDF <- read_csv("sw-people.csv")
-
+orbitPlanets <- planetDF %>% filter(!is.na(orbital_period)) %>% arrange(name)
 library(r2d3)
 
 
@@ -30,10 +30,11 @@ ui <- fluidPage(
                          tableOutput('peopleTable')),
                 tabPanel("Planets",
                          value="Planet",
-                         selectInput("selectPlanet", "Select your planet:",unique(planetDF$name)),
+                         selectInput("selectPlanet", "Select your planet:",unique(orbitPlanets$name)),
+                         tableOutput('planetTable'),
                          d3Output("planetPage"),
-                         d3Output("planetResidents"),
-                         tableOutput('planetTable'))
+                         d3Output("planetResidents")
+                         )
     )
     )
 )
@@ -83,7 +84,7 @@ server <- function(input, output, session) {
       r2d3(
         data = peopleDF %>% filter(planet==input$selectPlanet),
         script = "planet-residents.js")
-      
+
     })
     
     output$planetTable <- renderTable(planetDF %>% filter(name==input$selectPlanet) %>% select(-c("terrain2","url","color")))
