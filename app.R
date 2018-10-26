@@ -19,7 +19,7 @@ ui <- fluidPage(
     
     mainPanel(
     titlePanel("Star Wars People and Planets"),
-  tags$em("Not too long ago in a database far, far away..."),
+  tags$h4("Not too long ago in a database far, far away...", style="font-family:  Arial ; font-size; 16px;color:#4bd5ee;"),
    
     tabsetPanel(type = "tabs",id = "inTabset",
                 tabPanel("Overview", d3Output("mainPeople"), d3Output('mainPlanets')),

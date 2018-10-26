@@ -44,3 +44,6 @@ path.domain  {
 .tick text {
     fill:blue
 }
+line {
+  stroke: rgb(247, 241, 241);
+}

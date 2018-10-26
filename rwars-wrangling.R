@@ -112,3 +112,7 @@ peopleDF <- peopleDF %>% rename(species_name = name)
 peopleDF <- peopleDF[!duplicated(peopleDF), ]
 write_csv(planetDF, "sw-planets.csv")
 write_csv(peopleDF, "sw-people.csv")
+
+print(peopleDF %>% filter(planet=="Dagobah"))
+
+      
