@@ -6,37 +6,58 @@
 #
 #    http://shiny.rstudio.com/
 #
-planetDF <- read_csv("sw-planets.csv")
-peopleDF <- read_csv("sw-people.csv")
-orbitPlanets <- planetDF %>% filter(!is.na(orbital_period)) %>% arrange(name)
 library(r2d3)
+library(tidyverse)
+planetDF <-  read.csv("sw-planets.csv")
+peopleDF <- read.csv("sw-people.csv")
+orbitPlanets <- planetDF %>% filter(!is.na(orbital_period)) %>% arrange(name)
+
 
 
 ui <- fluidPage(
     tags$head(
-        tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
+        tags$link(rel = "stylesheet", type = "text/css", href = "styles.css"),
+        tags$link(href="https://fonts.googleapis.com/css?family=Gothic+A1", rel="stylesheet")
     ),
     
     mainPanel(
     titlePanel("Star Wars People and Planets"),
-  tags$h4("Not too long ago in a database far, far away...", style="font-family:  Arial ; font-size; 16px;color:#4bd5ee;"),
+    tags$h4("Not too long ago in a database far, far away...", style="font-family:  Arial ; font-size; 16px;color:#4bd5ee;"),
    
-    tabsetPanel(type = "tabs",id = "inTabset",
-                tabPanel("Overview", d3Output("mainPeople"), d3Output('mainPlanets')),
-                tabPanel("People", value="People",
-                         
-                         selectInput("selectPerson", "Select your character:",
-                                     unique(peopleDF$person)),
-                         tableOutput('peopleTable')),
-                tabPanel("Planets",
-                         value="Planet",
-                         selectInput("selectPlanet", "Select your planet:",unique(orbitPlanets$name)),
-                         tableOutput('planetTable'),
-                         d3Output("planetPage"),
-                         d3Output("planetResidents")
-                         )
+      tabsetPanel(type = "tabs",id = "inTabset",
+                  tabPanel("Overview",
+                                tags$div(class = "plotContainer",
+                                           d3Output("mainPeople"),
+                                           d3Output('mainPlanets')
+                                         ) 
+                           ),
+                  tabPanel("People", 
+                           value="People",
+                           selectInput("selectPerson", "Select your character:",unique(peopleDF$person)),
+                           tableOutput('peopleTable'),
+                           d3Output("peopleClassification")),
+                  tabPanel("Planets",
+                           value="Planet",
+                           selectInput("selectPlanet", "Select your planet:",unique(orbitPlanets$name)),
+                           tableOutput('planetTable'),
+                           d3Output("planetPage"),
+                           d3Output("planetResidents")
+                           )
+      ),
+    tags$div(class = "footer",
+             tags$div(class = "footerItem",
+                      tags$p("Made by ",
+                             tags$a(href="https://twitter.com/scottyla1", "@scottyla1"))
+            ),
+            tags$div(class = "footerItem",
+                     tags$p("Data provided by ",
+                            tags$a(href="https://www.swapi.com", "Star Wars API"),
+                            "using the ",
+                            tags$a(href="https://www.rdocumentation.org/packages/rwars/versions/1.0.0", "rwars package.")
+                            )
+            )
     )
-    )
+)
 )
 
 server <- function(input, output, session) {
@@ -85,6 +106,13 @@ server <- function(input, output, session) {
         data = peopleDF %>% filter(planet==input$selectPlanet),
         script = "planet-residents.js")
 
+    })
+    
+    output$peopleClassification <- renderD3({
+      r2d3(
+        data = peopleDF,
+        script = "people-classification.js")
+      
     })
     
     output$planetTable <- renderTable(planetDF %>% filter(name==input$selectPlanet) %>% select(-c("terrain2","url","color")))

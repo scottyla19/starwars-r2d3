@@ -95,9 +95,9 @@ for (i in seq(2,7)) {
   prevRes <- currList
 }
 
-specDF <- as.data.frame(specList[[1]][c(1,2,3,4,5,6,7,8,length(specList[[1]]))])
+specDF <- as.data.frame(specList[[1]][c(1,2,3,4,5,6,7,8,length(specList[[1]]))], stringsAsFactors = FALSE)
 for (j in seq(2,length(planList))) {
-  currDF <- as.data.frame(specList[[j]][c(1,2,3,4,5,6,7,8,length(specList[[1]]))])
+  currDF <- as.data.frame(specList[[j]][c(1,2,3,4,5,6,7,8,length(specList[[1]]))], stringsAsFactors = FALSE)
   specDF <- rbind(specDF, currDF)
 }
 
@@ -115,4 +115,8 @@ write_csv(peopleDF, "sw-people.csv")
 
 orbitPlanets <- planetDF %>% filter(!is.na(orbital_period))
 
+peopleDF$classification <- ifelse(grepl("mamma*", peopleDF$classification ), "mammal",peopleDF$classification )
+peopleDF$classification <- ifelse(grepl("reptil*", peopleDF$classification ), "reptile",peopleDF$classification )
+peopleDF$classification <- ifelse(grepl("sentien*", peopleDF$classification ), "reptile",peopleDF$classification )
+print(unique(peopleDF$classification))
       

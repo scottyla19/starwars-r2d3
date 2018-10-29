@@ -13,9 +13,19 @@
 .r2d3.html-widget.html-widget-output.shiny-bound-output{
   margin: 30px;
 }
+.footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.footerItem{
+  flex-grow: 1;
+}
 body{
   background:black;
   color: #ffd700;
+  font-family: 'Gothic A1', sans-serif;
 }
 
 

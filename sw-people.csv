@@ -41,8 +41,8 @@ species,homeworld,person,height,mass,hair_color,skin_color,eye_color,birth_year,
 12,8,Roos Tarpals,224,82,NA,grey,orange,NA,male,Naboo,26,312,12120,temperate,1 standard,"grassy hills, swamps, forests, mountains",12,4500000000,grass,#7cfc00,Gungan,amphibian,sentient,190,unknown
 13,34,Watto,137,NA,black,blue,yellow,NA,male,Toydaria,21,184,7900,temperate,1,"swamps, lakes",NA,11000000,swamp,#A3AE7E,Toydarian,mammal,sentient,120,91
 14,35,Sebulba,112,40,NA,grey,orange,NA,male,Malastare,26,201,18880,"arid, temperate, tropical",1.56,"swamps, deserts, jungles, mountains",NA,2000000000,swamp,#A3AE7E,Dug,mammal,sentient,100,unknown
-15,37,Bib Fortuna,180,NA,NA,pale,pink,NA,male,Ryloth,30,305,10600,"temperate, arid, subartic",1,"mountains, valleys, deserts, tundra",5,1500000000,mountain,#977c53,Twi'lek,mammals,sentient,200,unknown
-15,37,Ayla Secura,178,55,NA,blue,hazel,48BBY,female,Ryloth,30,305,10600,"temperate, arid, subartic",1,"mountains, valleys, deserts, tundra",5,1500000000,mountain,#977c53,Twi'lek,mammals,sentient,200,unknown
+15,37,Bib Fortuna,180,NA,NA,pale,pink,NA,male,Ryloth,30,305,10600,"temperate, arid, subartic",1,"mountains, valleys, deserts, tundra",5,1500000000,mountain,#977c53,Twi'lek,mammal,sentient,200,unknown
+15,37,Ayla Secura,178,55,NA,blue,hazel,48BBY,female,Ryloth,30,305,10600,"temperate, arid, subartic",1,"mountains, valleys, deserts, tundra",5,1500000000,mountain,#977c53,Twi'lek,mammal,sentient,200,unknown
 16,38,Ratts Tyerell,79,15,NA,grey,NA,NA,male,Aleen Minor,NA,NA,NA,NA,NA,NA,NA,NA,NA,black,Aleena,reptile,sentient,80,79
 17,39,Dud Bolt,94,45,NA,blue,yellow,NA,male,Vulpter,22,391,14900,"temperate, artic",1,"urban, barren",NA,421000000,urban,#55636d,Vulptereen,unknown,sentient,100,unknown
 18,40,Gasgano,122,NA,NA,white,black,NA,male,Troiken,NA,NA,NA,NA,NA,"desert, tundra, rainforests, mountains",NA,NA,desert,#c2b280 ,Xexto,unknown,sentient,125,unknown
@@ -66,7 +66,7 @@ species,homeworld,person,height,mass,hair_color,skin_color,eye_color,birth_year,
 29,51,Barriss Offee,166,50,black,yellow,blue,40BBY,female,Mirial,NA,NA,NA,NA,NA,deserts,NA,NA,desert,#c2b280 ,Mirialan,mammal,sentient,180,unknown
 3,14,Chewbacca,228,112,brown,NA,blue,200BBY,male,Kashyyyk,26,381,12765,tropical,1 standard,"jungle, forests, lakes, rivers",60,45000000,jungle,#29ab87,Wookiee,mammal,sentient,210,400
 3,14,Tarfful,234,136,brown,brown,blue,NA,male,Kashyyyk,26,381,12765,tropical,1 standard,"jungle, forests, lakes, rivers",60,45000000,jungle,#29ab87,Wookiee,mammal,sentient,210,400
-30,54,Zam Wesell,168,55,blonde,fair,yellow,NA,female,Zolan,NA,NA,NA,NA,NA,NA,NA,NA,NA,black,Clawdite,reptilian,sentient,180,70
+30,54,Zam Wesell,168,55,blonde,fair,yellow,NA,female,Zolan,NA,NA,NA,NA,NA,NA,NA,NA,NA,black,Clawdite,reptile,sentient,180,70
 31,55,Dexter Jettster,198,102,NA,brown,yellow,NA,male,Ojom,NA,NA,NA,frigid,NA,"oceans, glaciers",100,500000000,ocean,#0077be,Besalisk,amphibian,sentient,178,75
 32,10,Taun We,213,NA,NA,grey,black,NA,female,Kamino,27,463,19720,temperate,1 standard,ocean,100,1000000000,ocean,#0077be,Kaminoan,amphibian,sentient,220,80
 32,10,Lama Su,229,88,NA,grey,black,NA,male,Kamino,27,463,19720,temperate,1 standard,ocean,100,1000000000,ocean,#0077be,Kaminoan,amphibian,sentient,220,80
@@ -75,7 +75,7 @@ species,homeworld,person,height,mass,hair_color,skin_color,eye_color,birth_year,
 35,58,Shaak Ti,178,57,NA,red,black,NA,female,Shili,NA,NA,NA,temperate,1,"cities, savannahs, seas, plains",NA,NA,city,#8d8d8d,Togruta,mammal,sentient,180,94
 36,59,Grievous,216,159,NA,brown,"green, yellow",NA,male,Kalee,23,378,13850,"arid, temperate, tropical",1,"rainforests, cliffs, canyons, seas",NA,4000000000,forest,#228b22,Kaleesh,reptile,sentient,170,80
 37,12,Tion Medon,206,80,NA,grey,black,NA,male,Utapau,27,351,12900,"temperate, arid, windy",1 standard,"scrublands, savanna, canyons, sinkholes",0.9,95000000,scrubland,#aab5a8,Pau'an,mammal,sentient,190,700
-4,23,Greedo,173,74,NA,green,black,44BBY,male,Rodia,29,305,7549,hot,1 standard,"jungles, oceans, urban, swamps",60,1300000000,jungle,#29ab87,Rodian,sentient,reptilian,170,unknown
+4,23,Greedo,173,74,NA,green,black,44BBY,male,Rodia,29,305,7549,hot,1 standard,"jungles, oceans, urban, swamps",60,1300000000,jungle,#29ab87,Rodian,reptile,reptilian,170,unknown
 5,24,Jabba Desilijic Tiure,175,NA,NA,green-tan,orange,600BBY,hermaphrodite,Nal Hutta,87,413,12150,temperate,1 standard,"urban, oceans, swamps, bogs",NA,7000000000,urban,#55636d,Hutt,gastropod,sentient,300,1000
 6,28,Yoda,66,17,white,green,brown,896BBY,male,NA,0,0,0,NA,NA,NA,NA,NA,NA,black,Yoda's species,mammal,sentient,66,900
 7,29,Bossk,190,113,NA,green,red,53BBY,male,Trandosha,25,371,0,arid,0.62 standard,"mountains, seas, grasslands, deserts",NA,42000000,mountain,#977c53,Trandoshan,reptile,sentient,200,unknown

@@ -1,10 +1,14 @@
 
 var margin = { top: 20, right: 20, bottom: 20, left: 50 };
 width = width - margin.left - margin.right
-height = height - margin.top - margin.bottom;
+height = height - margin.top - margin.bottom ;
+svg
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + 2*margin.bottom)
+
 svg.append("rect")
-    .attr("width", "100%")
-    .attr("height", "100%")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + 2*margin.bottom)
     .attr("fill", "black");
 
 
@@ -39,6 +43,8 @@ var zoom = d3.zoom()
 
 
 var group = svg.append("g")
+.attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
     .attr("transform",
           "translate(" + margin.left + "," + margin.bottom + ")")
   
@@ -109,7 +115,7 @@ var points = group.selectAll('circle')
          .duration(500)
          .style("opacity", 0);
        }).on("click", function(){
-         console.log( d3.select(this).attr("d"))
+         
       Shiny.setInputValue(
         "People", 
         d3.select(this).attr("d"),
@@ -118,7 +124,7 @@ var points = group.selectAll('circle')
     });
    
  var xAxis = group.append("g")
-    .attr("transform", "translate(0," + height + ")")
+    .attr("transform", "translate(0," + height  + ")")
     .attr("class", "axisWhite")
       .call(d3.axisBottom(x));
 
@@ -146,6 +152,24 @@ yAxis.selectAll("line")
   yAxis.selectAll("text")
     .style("stroke", "white");
     
+    svg.append("text")             
+    .attr("transform",
+          "translate(" + (width/2) + " ," + 
+                         (height + margin.bottom + 30) + ")")
+    .style("text-anchor", "middle")
+    .text("Mass")
+    .style("fill", "white");
+
+    
+    group.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0 - margin.left)
+    .attr("x",0 - (height / 2))
+    .attr("dy", "1em")
+    .style("text-anchor", "middle")
+    .text("Height")
+    .style("fill", "white");
+
     svg.append("text")
         .attr("x", (width / 2))             
         .attr("y", margin.top)
